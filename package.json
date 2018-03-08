@@ -1,0 +1,26 @@
+{
+    "name": "blueToothServer",
+    "version": "1.0.0",
+    "description": "Get blue tooth devices",
+    "main": "plugServer.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon"
+    },
+    "license": "ISC",
+    "devDependencies": {},
+    "dependencies": {
+        "async": "^2.6.0",
+        "bluetooth-serial-port": "^2.1.5",
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2",
+        "http": "0.0.0",
+        "moment": "^2.20.1",
+        "morgan": "^1.9.0",
+        "nodemon": "^1.17.1",
+        "socket.io": "^2.0.4",
+        "socket.io-client": "^2.0.4",
+        "tplink-cloud-api": "^0.2.0",
+        "uuid": "^3.2.1"
+    }
+}
